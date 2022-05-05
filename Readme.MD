@@ -1,0 +1,1 @@
+npm install -D @babel/core @babel/plugin-syntax-top-level-await @babel/plugin-transform-runtime

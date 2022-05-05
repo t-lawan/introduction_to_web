@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>Clock App</title>
+<base href="." > 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid main-container">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+
+                    <div class="col-sm">
+                        <h3>London </h3>
+                    </div>
+                    <div class="col-sm">
+                        <h3 id="time">  </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm">
+                        <h2 id="date">  </h2>  
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm">
+                        <img id="picture" src="../src/sloth.jpg">
+                        <p id="comment"> </p>
+        
+                    </div>
+                    <div class="col-sm">
+                        <h2><span id="temp"> </span> C</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm">
+                <div class="card">
+                    <div class="card-body">
+                        <h6>Humidty: <span id="humidty"> </span> </h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <div class="card-body">
+                        <h6>Chance of Rain: <span id="precip"> </span>  </h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 >Windspeed:<span id="wind"> </h6>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+</body>
+<!-- <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script> -->
+<script type="module" src="bundle.js"></script>
+</html> 

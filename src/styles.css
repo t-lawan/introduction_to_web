@@ -1,0 +1,56 @@
+body {
+    /* background: green; */
+    background: rgb(74,134,58);
+    background: radial-gradient(circle, rgba(74,134,58,1) 0%, rgba(23,121,9,1) 36%, rgba(96,194,82,1) 100%);
+}
+
+.main-container {
+    text-align: center;
+    
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.row {
+    align-items: center;
+}
+
+.card {
+    margin: 0.5rem 0;
+}
+
+.grid-container {
+    display: grid;
+    width: 100%;
+    padding: 1rem;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-text {
+    color: blue;
+}
+.blue-text:hover{
+    color: yellow;
+}
+
+#picture {
+    width: 50%;
+}
+
+#picture:hover{
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
